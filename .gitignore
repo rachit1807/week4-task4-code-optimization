@@ -1,0 +1,7 @@
+node_modules/
+work/
+.env
+.DS_Store
+*.cpuprofile
+test-results/
+playwright-report/

@@ -1,0 +1,136 @@
+{
+  "environment": {
+    "node": "v24.19.0",
+    "platform": "darwin 27.0.0 arm64",
+    "cpu": "Apple M4",
+    "explicitGC": true
+  },
+  "id": 1792297930625,
+  "timestamp": "2026-10-18T04:32:10.625Z",
+  "size": 5000,
+  "orders": 20000,
+  "rounds": 11,
+  "legacy": 73.73679100000004,
+  "optimized": 0.701665999999932,
+  "speedup": 105.08816302914377,
+  "reduction": 99.04841804140902,
+  "equivalent": true,
+  "samples": {
+    "legacy": [
+      83.72641699999986,
+      73.41504099999997,
+      73.73679100000004,
+      73.96808299999998,
+      73.83262500000001,
+      73.88829099999998,
+      73.65724999999998,
+      73.17991600000005,
+      73.13095799999996,
+      73.0509169999998,
+      74.97212500000023
+    ],
+    "optimized": [
+      0.6905420000000504,
+      0.8234170000000631,
+      0.8702499999999418,
+      0.6095829999999296,
+      0.6845000000000709,
+      0.7607910000001539,
+      0.6987500000000182,
+      0.6978750000000673,
+      0.7758340000000317,
+      0.9082909999999629,
+      0.701665999999932
+    ]
+  },
+  "memory": {
+    "legacy": [
+      {
+        "heapBefore": 5823320,
+        "heapAfter": 7845160,
+        "heapDelta": 2021840,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6140536,
+        "heapAfter": 8227400,
+        "heapDelta": 2086864,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6140672,
+        "heapAfter": 8164736,
+        "heapDelta": 2024064,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6141224,
+        "heapAfter": 8228088,
+        "heapDelta": 2086864,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6141376,
+        "heapAfter": 8164888,
+        "heapDelta": 2023512,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6141712,
+        "heapAfter": 8228688,
+        "heapDelta": 2086976,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6142544,
+        "heapAfter": 8163592,
+        "heapDelta": 2021048,
+        "rows": 5000
+      }
+    ],
+    "optimized": [
+      {
+        "heapBefore": 6142848,
+        "heapAfter": 8249120,
+        "heapDelta": 2106272,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6303392,
+        "heapAfter": 8410816,
+        "heapDelta": 2107424,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6320096,
+        "heapAfter": 8339808,
+        "heapDelta": 2019712,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6740864,
+        "heapAfter": 8682936,
+        "heapDelta": 1942072,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6311568,
+        "heapAfter": 8331248,
+        "heapDelta": 2019680,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6741216,
+        "heapAfter": 8771536,
+        "heapDelta": 2030320,
+        "rows": 5000
+      },
+      {
+        "heapBefore": 6312976,
+        "heapAfter": 7546704,
+        "heapDelta": 1233728,
+        "rows": 5000
+      }
+    ]
+  }
+}
