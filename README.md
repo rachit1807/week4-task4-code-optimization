@@ -14,6 +14,8 @@ A performance workbench that turns code refactoring into a measurable experiment
 
 **Week 4 · Task 4 — Code Refactoring and Optimization**
 
+[Open live workbench](https://refactor-lab-rachit.onrender.com) · [Performance report](docs/performance-report.md)
+
 </div>
 
 ## What it does
